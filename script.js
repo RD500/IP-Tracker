@@ -9,7 +9,7 @@ $(document).ready(function() {
             return; // Exit the function if no IP is entered
         }
 
-        var API_KEY = "28dd503ea1644af09450ac492428db6c";
+        var API_KEY = "api key";
         var url = "https://api.ipgeolocation.io/ipgeo?apiKey=" + API_KEY + "&ip=" + ip;
 
         $.get(url, function(data) {
